@@ -1,6 +1,7 @@
+import './CreateTodoButton.css'
 function CreateTodoBoton() {
   return (
-    <button>
+    <button className="CreateTodoButton">
       +
     </button>
   )

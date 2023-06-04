@@ -1,9 +1,9 @@
+import './TodoSearch.css'
 function TodoSearch() {
   return (
-    <h1>
-      ingrese un dato:
-      <input placeholder="Ingresa cualquier dato " />
-    </h1>
+
+    <input className="TodoSearch" placeholder="Buscar Todo " />
+
   )
 }
 
