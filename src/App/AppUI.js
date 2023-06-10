@@ -52,7 +52,7 @@ function AppUI() {
 
 
 
-      <CreateTodoBoton />
+      <CreateTodoBoton setOpenModal={setOpenModal} />
       {openModal && (
         <Modal>
           La funcionalidad de agregar TODO
