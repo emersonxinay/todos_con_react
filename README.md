@@ -23,8 +23,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
+# para deploy
 ### `npm run build`
+```bash
+npm run build
+```
+### instalar herramiento para deploy
+```bash
+npm i --save-dev gh-pages
+```
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
